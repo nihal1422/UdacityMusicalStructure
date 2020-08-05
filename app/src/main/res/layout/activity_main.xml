@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/old_songs">
+        <TextView
+            style="@style/CategoryStyle"
+            android:id="@+id/old"
+            android:text="Old Songs" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/medium_songs">
+        <TextView
+            style="@style/CategoryStyle"
+            android:id="@+id/medium"
+            android:text="Medium Songs" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/latest_songs">
+        <TextView
+            style="@style/CategoryStyle"
+            android:id="@+id/latest"
+            android:text="Latest Songs"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/remix_songs">
+        <TextView
+            style="@style/CategoryStyle"
+            android:id="@+id/remix"
+            android:text="Remix Songs" />
+    </LinearLayout>
+</LinearLayout>
